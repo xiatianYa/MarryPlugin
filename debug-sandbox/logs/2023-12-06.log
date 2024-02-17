@@ -1,0 +1,300 @@
+2023-12-06 08:31:01 I/main: Starting mirai-console...
+2023-12-06 08:31:01 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-06 08:31:01 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-06 08:31:01 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-06 08:31:01 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-06 08:31:02 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-06 08:31:02 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-06 08:31:02 I/stdout: 定时器任务正在执行...
+2023-12-06 08:31:02 I/stdout: 初始化成功...
+2023-12-06 08:31:03 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-06 08:31:03 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-06 08:31:03 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-06 08:31:03 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-06 08:31:05 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226657780064509497541430.png
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226657780064509497541430.png.
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-06 08:31:05 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] 已取消登录，将会重新获取二维码
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] Login cancelled, we will try to fetch qrcode again.
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226657780064509497541430.png
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226657780064509497541430.png.
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-06 08:31:26 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-06 08:31:35 I/main: Starting mirai-console...
+2023-12-06 08:31:35 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-06 08:31:35 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-06 08:31:35 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-06 08:31:35 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-06 08:31:36 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-06 08:31:36 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-06 08:31:36 I/stdout: 定时器任务正在执行...
+2023-12-06 08:31:36 I/stdout: 初始化成功...
+2023-12-06 08:31:37 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-06 08:31:37 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-06 08:31:37 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-06 08:31:37 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-06 08:31:38 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png.
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-06 08:31:39 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] 已取消登录，将会重新获取二维码
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] Login cancelled, we will try to fetch qrcode again.
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png.
+2023-12-06 08:31:59 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-06 08:32:00 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-06 08:32:00 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] 扫描超时，将会重新获取二维码
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] Timeout scanning, we will try to fetch qrcode again.
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17018226993910496424855315528.png.
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-06 08:34:04 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.

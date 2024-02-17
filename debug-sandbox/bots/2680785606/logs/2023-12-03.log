@@ -1,0 +1,9 @@
+[0m2023-12-03 08:38:34 V/Net 2680785606: Invalidate caches because hash file not available.[0m
+[0m2023-12-03 08:38:34 V/Net 2680785606: No server list cached.[0m
+[92m2023-12-03 08:38:34 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2023-12-03 08:38:34 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-12-03 08:38:34 I/Net 2680785606: Successfully fetched ecdh public key from server.[0m
+[0m2023-12-03 08:38:34 V/Net 2680785606: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-12-03 08:38:34 D/Net 2680785606: [AuthControl/acquire] Authorization responded: Password@193606617[0m
+[0m2023-12-03 08:38:34 V/Net 2680785606: Send: wtlogin.login(9:password-login)[0m
+[0m2023-12-03 08:38:35 V/Net 2680785606: Recv: wtlogin.login[0m

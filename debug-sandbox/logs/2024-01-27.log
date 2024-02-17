@@ -1,0 +1,176 @@
+2024-01-27 15:27:11 I/main: Starting mirai-console...
+2024-01-27 15:27:11 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-01-27 15:27:11 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-01-27 15:27:11 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-01-27 15:27:11 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-01-27 15:27:12 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-01-27 15:27:12 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-01-27 15:27:12 I/stdout: 5分钟定时任务被调用...
+2024-01-27 15:27:12 I/stdout: 0点定时任务被调用了..
+2024-01-27 15:27:13 I/stdout: 初始化成功...
+2024-01-27 15:27:13 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-01-27 15:27:13 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-01-27 15:27:14 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-01-27 15:27:14 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-01-27 15:27:14 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17063404353143257704296892869.png
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17063404353143257704296892869.png.
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-01-27 15:27:15 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-01-27 15:27:34 I/main: Starting mirai-console...
+2024-01-27 15:27:34 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-01-27 15:27:34 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-01-27 15:27:34 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-01-27 15:27:34 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-01-27 15:27:35 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-01-27 15:27:35 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-01-27 15:27:35 I/stdout: 0点定时任务被调用了..
+2024-01-27 15:27:35 I/stdout: 5分钟定时任务被调用...
+2024-01-27 15:27:36 I/stdout: 初始化成功...
+2024-01-27 15:27:36 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-01-27 15:27:36 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-01-27 15:27:37 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-01-27 15:27:37 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-01-27 15:27:37 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17063404585942950324009985185.png
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17063404585942950324009985185.png.
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-01-27 15:27:38 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-01-27 15:27:58 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-01-27 15:27:58 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-01-27 15:28:03 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-01-27 15:28:03 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-01-27 15:28:03 I/Bot 2680785606: Login successful
+2024-01-27 15:28:03 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-01-27 15:28:03 I/Bot 2680785606: Login successful.
+2024-01-27 15:28:03 I/Net 2680785606: Server time updated, serverTime: 1706340494, diff: 11ms=0.011s
+2024-01-27 15:28:03 I/Net 2680785606: Syncing friend message history...
+2024-01-27 15:28:03 I/Net 2680785606: Start loading friend list...
+2024-01-27 15:28:03 I/Net 2680785606: Start loading stranger list...
+2024-01-27 15:28:03 I/Net 2680785606: Start loading friendGroup list...
+2024-01-27 15:28:03 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-01-27 15:28:03 I/Net 2680785606: Start loading group list...
+2024-01-27 15:28:03 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-01-27 15:28:03 I/Net 2680785606: Syncing friend message history: Success.
+2024-01-27 15:28:03 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-01-27 15:28:03 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-01-27 15:28:04 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-01-27 15:28:04 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-01-27 15:28:04 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-01-27 15:28:04 I/Bot 2680785606: Bot login successful.
+2024-01-27 15:28:04 I/main: 2 plugin(s) enabled.
+2024-01-27 15:28:04 I/main: mirai-console started successfully.

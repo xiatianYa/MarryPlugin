@@ -1,0 +1,14 @@
+com.alibaba.fastjson2:fastjson2-extension:2.0.45
+com.alibaba.fastjson2:fastjson2:2.0.45
+com.alibaba:fastjson:2.0.45
+com.baidu.aip:java-sdk:4.0.0
+com.squareup.okhttp3:okhttp-jvm:5.0.0-alpha.12
+com.squareup.okhttp3:okhttp:5.0.0-alpha.12
+com.squareup.okio:okio-jvm:3.7.0
+com.squareup.okio:okio:3.7.0
+org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10
+org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10
+org.jetbrains.kotlin:kotlin-stdlib:1.9.21
+org.jetbrains:annotations:13.0
+org.json:json:20231013
+org.yaml:snakeyaml:2.2

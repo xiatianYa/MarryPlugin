@@ -1,0 +1,2353 @@
+2024-02-17 21:24:29 I/main: Starting mirai-console...
+2024-02-17 21:24:29 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:24:29 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:24:29 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:24:29 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:24:47 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:24:47 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:24:47 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:24:47 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:24:47 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:24:47 I/stdout: 文件保存失败!!!
+2024-02-17 21:24:47 I/stdout: 配置文件创建完成,请配置:C:\Users\ASUS\Desktop\机器人\Chat-Cat\debug-sandbox\config\com.hn.cat\miaomiao.yml
+2024-02-17 21:24:47 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:24:48 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:24:48 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:24:48 I/stdout: 初始化成功...
+2024-02-17 21:24:48 I/main: 3 plugin(s) enabled.
+2024-02-17 21:24:48 I/main: mirai-console started successfully.
+2024-02-17 21:44:30 W/console: Closing input service...
+2024-02-17 21:54:37 I/main: Starting mirai-console...
+2024-02-17 21:54:37 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:54:37 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:54:37 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:54:37 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:54:38 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:54:38 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:54:38 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:54:38 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:54:38 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:54:38 I/stdout: 文件保存失败!!!
+2024-02-17 21:54:38 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:54:38 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:54:38 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:54:38 I/stdout: 文件保存失败!!!
+2024-02-17 21:54:38 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 21:54:38 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:54:38 I/main: 3 plugin(s) enabled.
+2024-02-17 21:54:38 I/main: mirai-console started successfully.
+2024-02-17 21:55:09 W/console: Closing input service...
+2024-02-17 21:55:24 I/main: Starting mirai-console...
+2024-02-17 21:55:24 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:55:24 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:55:24 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:55:24 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:55:25 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:55:25 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:55:25 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:58:21 I/main: Starting mirai-console...
+2024-02-17 21:58:21 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:58:21 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:58:21 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:58:21 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:58:22 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:58:22 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:58:22 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:58:22 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:58:22 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:58:22 I/stdout: 文件保存失败!!!
+2024-02-17 21:58:22 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:58:22 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:58:22 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:58:22 I/stdout: 文件保存失败!!!
+2024-02-17 21:58:22 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:58:22 I/main: 3 plugin(s) enabled.
+2024-02-17 21:58:22 I/main: mirai-console started successfully.
+2024-02-17 21:58:44 I/main: Starting mirai-console...
+2024-02-17 21:58:44 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:58:44 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:58:44 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:58:44 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:58:45 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:58:45 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:58:46 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:59:02 I/main: Starting mirai-console...
+2024-02-17 21:59:02 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:59:02 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:59:02 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:59:02 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 21:59:03 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 21:59:03 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 21:59:03 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 21:59:13 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:59:13 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:59:13 I/stdout: 文件保存失败!!!
+2024-02-17 21:59:24 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:59:28 I/stdout: 0点定时任务被调用了..
+2024-02-17 21:59:28 I/stdout: 180分钟定时任务被调用...
+2024-02-17 21:59:28 I/stdout: 文件保存失败!!!
+2024-02-17 21:59:28 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 21:59:28 I/main: 3 plugin(s) enabled.
+2024-02-17 21:59:28 I/main: mirai-console started successfully.
+2024-02-17 21:59:39 I/main: Starting mirai-console...
+2024-02-17 21:59:39 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 21:59:39 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 21:59:39 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 21:59:39 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:00:21 I/main: Starting mirai-console...
+2024-02-17 22:00:21 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:00:21 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:00:21 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:00:21 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:00:22 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:00:22 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:00:22 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:00:27 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:00:27 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:00:28 I/stdout: 文件保存失败!!!
+2024-02-17 22:01:08 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:01:10 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:01:10 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:01:10 I/stdout: 文件保存失败!!!
+2024-02-17 22:01:10 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:01:10 I/main: 3 plugin(s) enabled.
+2024-02-17 22:01:10 I/main: mirai-console started successfully.
+2024-02-17 22:02:37 I/main: Starting mirai-console...
+2024-02-17 22:02:37 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:02:37 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:02:37 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:02:37 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:02:39 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:02:39 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:02:39 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:02:50 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:02:52 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:02:52 I/stdout: 文件保存失败!!!
+2024-02-17 22:02:55 I/stdout: 配置文件创建完成,请配置:C:\Users\ASUS\Desktop\机器人\Chat-Cat\debug-sandbox\config\com.hn.cat\Cat.yml
+2024-02-17 22:03:17 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:03:24 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:03:24 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:03:24 I/stdout: 文件保存失败!!!
+2024-02-17 22:03:24 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:03:24 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:03:24 I/main: 3 plugin(s) enabled.
+2024-02-17 22:03:24 I/main: mirai-console started successfully.
+2024-02-17 22:04:28 I/main: Starting mirai-console...
+2024-02-17 22:04:28 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:04:28 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:04:28 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:04:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:04:30 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:04:30 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:04:30 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:04:30 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:04:30 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:04:30 I/stdout: 文件保存失败!!!
+2024-02-17 22:06:06 I/main: Starting mirai-console...
+2024-02-17 22:06:06 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:06:06 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:06:06 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:06:06 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:06:07 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:06:07 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:06:07 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:06:07 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:06:07 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:06:07 I/stdout: 文件保存失败!!!
+2024-02-17 22:06:07 I/stdout: 配置文件创建完成,请配置:C:\Users\ASUS\Desktop\机器人\Chat-Cat\debug-sandbox\config\com.hn.mao\Cat.yml
+2024-02-17 22:06:16 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:06:16 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:06:16 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:06:16 I/stdout: 文件保存失败!!!
+2024-02-17 22:06:16 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:06:16 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:06:16 I/main: 3 plugin(s) enabled.
+2024-02-17 22:06:16 I/main: mirai-console started successfully.
+2024-02-17 22:07:32 I/main: Starting mirai-console...
+2024-02-17 22:07:32 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:07:32 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:07:32 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:07:32 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:07:33 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:07:33 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:07:33 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:07:33 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:07:33 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:07:33 I/stdout: 文件保存失败!!!
+2024-02-17 22:07:43 I/stdout: 初始化成功...
+2024-02-17 22:07:43 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:07:43 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:07:43 I/stdout: 文件保存失败!!!
+2024-02-17 22:07:43 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:07:43 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:07:43 I/main: 3 plugin(s) enabled.
+2024-02-17 22:07:43 I/main: mirai-console started successfully.
+2024-02-17 22:11:33 I/main: Starting mirai-console...
+2024-02-17 22:11:33 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:11:33 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:11:33 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:11:33 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:11:34 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:11:34 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:11:34 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:11:34 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:11:34 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:11:34 I/stdout: 文件保存失败!!!
+2024-02-17 22:11:34 I/stdout: 初始化成功...
+2024-02-17 22:11:34 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:11:34 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:11:34 I/stdout: 文件保存失败!!!
+2024-02-17 22:11:34 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:11:34 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:11:34 I/main: 3 plugin(s) enabled.
+2024-02-17 22:11:34 I/main: mirai-console started successfully.
+2024-02-17 22:11:54 W/console: Closing input service...
+2024-02-17 22:15:28 I/main: Starting mirai-console...
+2024-02-17 22:15:28 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:15:28 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:15:28 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:15:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:15:29 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:15:29 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:15:30 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:15:30 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:15:30 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:15:30 I/stdout: 文件保存失败!!!
+2024-02-17 22:15:30 I/stdout: 初始化成功...
+2024-02-17 22:15:30 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:15:30 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:15:30 I/stdout: 文件保存失败!!!
+2024-02-17 22:15:30 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:15:30 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:15:30 I/main: 3 plugin(s) enabled.
+2024-02-17 22:15:30 I/main: mirai-console started successfully.
+2024-02-17 22:16:00 W/console: Closing input service...
+2024-02-17 22:17:31 I/main: Starting mirai-console...
+2024-02-17 22:17:31 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:17:31 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:17:31 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:17:31 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:17:32 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:17:32 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:17:33 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:17:33 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:17:33 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:17:33 I/stdout: 文件保存失败!!!
+2024-02-17 22:17:33 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:17:33 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:17:33 I/main: 3 plugin(s) enabled.
+2024-02-17 22:17:33 I/main: mirai-console started successfully.
+2024-02-17 22:17:52 W/console: Closing input service...
+2024-02-17 22:18:32 I/main: Starting mirai-console...
+2024-02-17 22:18:32 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:18:32 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:18:32 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:18:32 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:18:33 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:18:33 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:18:33 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:18:33 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:18:33 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:18:33 I/stdout: 文件保存失败!!!
+2024-02-17 22:18:33 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:18:33 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:18:33 I/main: 3 plugin(s) enabled.
+2024-02-17 22:18:33 I/main: mirai-console started successfully.
+2024-02-17 22:18:48 W/console: Closing input service...
+2024-02-17 22:19:16 I/main: Starting mirai-console...
+2024-02-17 22:19:16 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:19:16 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:19:16 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:19:16 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:19:17 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:19:17 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:19:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:19:17 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:19:17 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:19:17 I/stdout: 文件保存失败!!!
+2024-02-17 22:19:17 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:19:17 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:19:18 I/main: 3 plugin(s) enabled.
+2024-02-17 22:19:18 I/main: mirai-console started successfully.
+2024-02-17 22:27:53 I/main: Starting mirai-console...
+2024-02-17 22:27:53 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:27:53 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:27:53 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:27:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:27:54 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:27:54 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:27:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:27:54 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:27:54 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:27:54 I/stdout: 文件保存失败!!!
+2024-02-17 22:27:54 I/stdout: 配置文件创建完成,请配置:C:\Users\ASUS\Desktop\机器人\Chat-Cat\debug-sandbox\config\com.hn.mao\Cat.yml
+2024-02-17 22:27:54 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:27:54 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:27:54 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:27:54 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:27:54 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:27:55 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081800757714306561311444876.png
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081800757714306561311444876.png.
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:27:55 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:28:10 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 22:28:10 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 22:28:15 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 22:28:15 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 22:28:16 I/Bot 2680785606: Login successful
+2024-02-17 22:28:16 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 22:28:16 I/Bot 2680785606: Login successful.
+2024-02-17 22:28:16 I/Net 2680785606: Server time updated, serverTime: 1708180095, diff: -1ms=-0.001s
+2024-02-17 22:28:16 I/Net 2680785606: Syncing friend message history...
+2024-02-17 22:28:16 I/Net 2680785606: Start loading friend list...
+2024-02-17 22:28:16 I/Net 2680785606: Start loading stranger list...
+2024-02-17 22:28:16 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 22:28:16 I/Net 2680785606: Start loading group list...
+2024-02-17 22:28:16 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 22:28:16 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 22:28:16 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 22:28:16 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 22:28:16 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 22:28:16 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 22:28:16 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 22:28:16 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 22:28:16 I/Bot 2680785606: Bot login successful.
+2024-02-17 22:28:16 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:28:16 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:28:16 I/stdout: 文件保存失败!!!
+2024-02-17 22:28:16 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:28:16 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:28:16 I/main: 3 plugin(s) enabled.
+2024-02-17 22:28:16 I/main: mirai-console started successfully.
+2024-02-17 22:28:28 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.hn.cat.listener.CatEventHandler.handleException(CatEventHandler.java:21)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.hn.cat.listener.CatEventHandler.onMessage(CatEventHandler.java:33)
+	... 15 more
+
+2024-02-17 22:28:57 W/console: Closing input service...
+2024-02-17 22:29:36 I/main: Starting mirai-console...
+2024-02-17 22:29:36 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:29:36 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:29:36 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:29:36 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:29:37 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:29:37 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:29:37 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:29:37 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:29:37 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:29:37 I/stdout: 文件保存失败!!!
+2024-02-17 22:29:50 I/stdout: 初始化成功...
+2024-02-17 22:29:50 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:29:50 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:29:51 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:29:51 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:29:51 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:29:51 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:29:51 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:29:51 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081801918786448694483502805.png
+2024-02-17 22:29:51 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081801918786448694483502805.png.
+2024-02-17 22:29:51 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:29:52 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:29:52 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:30:07 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 22:30:07 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 22:30:12 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 22:30:12 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 22:30:12 I/Bot 2680785606: Login successful
+2024-02-17 22:30:12 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 22:30:12 I/Bot 2680785606: Login successful.
+2024-02-17 22:30:12 I/Net 2680785606: Server time updated, serverTime: 1708180212, diff: 0ms=0.0s
+2024-02-17 22:30:12 I/Net 2680785606: Syncing friend message history...
+2024-02-17 22:30:12 I/Net 2680785606: Start loading friend list...
+2024-02-17 22:30:12 I/Net 2680785606: Start loading stranger list...
+2024-02-17 22:30:12 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 22:30:12 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 22:30:12 I/Net 2680785606: Start loading group list...
+2024-02-17 22:30:12 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 22:30:12 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 22:30:12 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 22:30:12 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 22:30:12 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 22:30:12 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 22:30:12 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 22:30:12 I/Bot 2680785606: Bot login successful.
+2024-02-17 22:30:12 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:30:12 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:30:12 I/stdout: 文件保存失败!!!
+2024-02-17 22:30:12 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:30:12 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:30:12 I/main: 3 plugin(s) enabled.
+2024-02-17 22:30:12 I/main: mirai-console started successfully.
+2024-02-17 22:30:20 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:06 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:07 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:16 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:36 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:45 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:31:50 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:35:12 I/main: Starting mirai-console...
+2024-02-17 22:35:12 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:35:12 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:35:12 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:35:12 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:35:13 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:35:13 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:35:14 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:35:14 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:35:14 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:35:14 I/stdout: 文件保存失败!!!
+2024-02-17 22:35:14 I/stdout: 配置文件创建完成,请配置:C:\Users\ASUS\Desktop\机器人\Chat-Cat\debug-sandbox\config\com.hn.mao\CatConfig.yml
+2024-02-17 22:35:14 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:35:14 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:35:14 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:35:14 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:35:14 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:35:15 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081805157064060445939954568.png
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081805157064060445939954568.png.
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:35:15 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:37:24 I/main: Starting mirai-console...
+2024-02-17 22:37:24 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:37:24 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:37:24 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:37:24 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:37:25 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:37:25 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:37:25 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:37:25 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:37:25 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:37:25 I/stdout: 文件保存失败!!!
+2024-02-17 22:37:25 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:37:25 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:37:25 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:37:26 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:37:26 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:37:26 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081806472349011198399541243.png
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081806472349011198399541243.png.
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:37:27 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:40:12 I/main: Starting mirai-console...
+2024-02-17 22:40:12 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:40:12 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:40:12 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:40:12 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:40:13 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:40:13 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:40:13 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:40:13 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:40:13 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:40:13 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:40:13 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:40:13 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:40:14 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:40:14 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:40:14 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081808142788178264684087758.png
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081808142788178264684087758.png.
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:40:14 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:41:30 I/main: Starting mirai-console...
+2024-02-17 22:41:30 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:41:30 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:41:30 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:41:30 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:41:31 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:41:31 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:41:31 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:41:31 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:41:31 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:41:31 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:41:31 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:41:31 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:41:32 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:41:32 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:41:32 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081808924055208085754328514.png
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081808924055208085754328514.png.
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:41:32 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:41:42 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 22:41:42 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 22:41:47 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 22:41:47 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 22:41:47 I/Bot 2680785606: Login successful
+2024-02-17 22:41:47 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 22:41:48 I/Bot 2680785606: Login successful.
+2024-02-17 22:41:48 I/Net 2680785606: Server time updated, serverTime: 1708180907, diff: -1ms=-0.001s
+2024-02-17 22:41:48 I/Net 2680785606: Syncing friend message history...
+2024-02-17 22:41:48 I/Net 2680785606: Start loading friend list...
+2024-02-17 22:41:48 I/Net 2680785606: Start loading stranger list...
+2024-02-17 22:41:48 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 22:41:48 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 22:41:48 I/Net 2680785606: Start loading group list...
+2024-02-17 22:41:48 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 22:41:48 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 22:41:48 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 22:41:48 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 22:41:48 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 22:41:48 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 22:41:48 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 22:41:48 I/Bot 2680785606: Bot login successful.
+2024-02-17 22:41:48 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:41:48 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:41:48 I/stdout: 文件保存失败!!!
+2024-02-17 22:41:48 I/stdout: 配置文件创建完成,请配置 config/com.hncpu.miaomiao/miaomiao.yml
+2024-02-17 22:41:48 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:41:48 I/main: 3 plugin(s) enabled.
+2024-02-17 22:41:48 I/main: mirai-console started successfully.
+2024-02-17 22:41:53 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.hn.cat.listener.CatEventHandler.handleException(CatEventHandler.java:21)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.hn.cat.listener.CatEventHandler.onMessage(CatEventHandler.java:33)
+	... 15 more
+
+2024-02-17 22:42:01 W/console: Closing input service...
+2024-02-17 22:42:15 I/main: Starting mirai-console...
+2024-02-17 22:42:15 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:42:15 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:42:15 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:42:15 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:42:17 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:42:17 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:42:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:42:17 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:42:17 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:42:17 I/stdout: 初始化成功...
+2024-02-17 22:42:17 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:42:17 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:42:17 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:42:17 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:42:18 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081809386609717486328324649.png
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081809386609717486328324649.png.
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:42:18 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:42:28 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 22:42:28 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 22:42:33 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 22:42:33 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 22:42:33 I/Bot 2680785606: Login successful
+2024-02-17 22:42:33 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 22:42:33 I/Bot 2680785606: Login successful.
+2024-02-17 22:42:33 I/Net 2680785606: Server time updated, serverTime: 1708180953, diff: 0ms=0.0s
+2024-02-17 22:42:33 I/Net 2680785606: Syncing friend message history...
+2024-02-17 22:42:33 I/Net 2680785606: Start loading friend list...
+2024-02-17 22:42:33 I/Net 2680785606: Start loading stranger list...
+2024-02-17 22:42:33 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 22:42:33 I/Net 2680785606: Start loading group list...
+2024-02-17 22:42:33 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 22:42:33 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 22:42:33 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 22:42:33 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 22:42:33 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 22:42:34 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 22:42:34 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 22:42:34 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 22:42:34 I/Bot 2680785606: Bot login successful.
+2024-02-17 22:42:34 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:42:34 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:42:34 I/stdout: 文件保存失败!!!
+2024-02-17 22:42:34 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:42:34 I/main: 3 plugin(s) enabled.
+2024-02-17 22:42:34 I/main: mirai-console started successfully.
+2024-02-17 22:42:38 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.hn.cat.listener.CatEventHandler.handleException(CatEventHandler.java:21)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.IndexOutOfBoundsException: Index: 50, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at com.hn.cat.message.CatSendMessage.handleMarry(CatSendMessage.java:196)
+	at com.hn.cat.message.CatSendMessage.Marry(CatSendMessage.java:226)
+	at com.hn.cat.listener.CatEventHandler.send(CatEventHandler.java:44)
+	at com.hn.cat.listener.CatEventHandler.onMessage(CatEventHandler.java:36)
+	... 15 more
+
+2024-02-17 22:43:10 W/console: Closing input service...
+2024-02-17 22:44:16 I/main: Starting mirai-console...
+2024-02-17 22:44:16 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 22:44:16 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 22:44:16 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 22:44:16 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 22:44:17 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 22:44:17 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 22:44:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 22:44:17 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:44:17 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:44:17 I/stdout: 初始化成功...
+2024-02-17 22:44:17 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 22:44:17 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 22:44:18 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 22:44:18 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 22:44:18 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081810584351924556536977825.png
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081810584351924556536977825.png.
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 22:44:18 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 22:44:28 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 22:44:28 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 22:44:39 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 22:44:39 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 22:44:39 I/Bot 2680785606: Login successful
+2024-02-17 22:44:39 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 22:44:39 I/Bot 2680785606: Login successful.
+2024-02-17 22:44:39 I/Net 2680785606: Server time updated, serverTime: 1708181078, diff: -1ms=-0.001s
+2024-02-17 22:44:39 I/Net 2680785606: Syncing friend message history...
+2024-02-17 22:44:39 I/Net 2680785606: Start loading friend list...
+2024-02-17 22:44:39 I/Net 2680785606: Start loading stranger list...
+2024-02-17 22:44:39 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 22:44:39 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 22:44:39 I/Net 2680785606: Start loading group list...
+2024-02-17 22:44:39 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 22:44:39 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 22:44:39 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 22:44:39 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 22:44:39 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 22:44:39 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 22:44:39 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 22:44:39 I/Bot 2680785606: Bot login successful.
+2024-02-17 22:44:39 I/stdout: 180分钟定时任务被调用...
+2024-02-17 22:44:39 I/stdout: 0点定时任务被调用了..
+2024-02-17 22:44:39 I/stdout: 文件保存失败!!!
+2024-02-17 22:44:39 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 22:44:39 I/main: 3 plugin(s) enabled.
+2024-02-17 22:44:39 I/main: mirai-console started successfully.
+2024-02-17 22:44:46 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:23 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:23 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:29 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:32 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:32 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:42 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:44 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 22:45:56 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 23:08:20 I/main: Starting mirai-console...
+2024-02-17 23:08:20 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 23:08:20 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 23:08:20 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 23:08:20 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 23:08:21 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 23:08:21 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 23:08:21 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 23:08:21 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:08:21 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:08:21 I/stdout: 初始化成功...
+2024-02-17 23:08:21 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:08:21 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:08:21 I/stdout: 文件保存失败!!!
+2024-02-17 23:08:21 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 23:08:21 I/main: 3 plugin(s) enabled.
+2024-02-17 23:08:21 I/main: mirai-console started successfully.
+2024-02-17 23:08:41 W/console: Closing input service...
+2024-02-17 23:09:02 I/main: Starting mirai-console...
+2024-02-17 23:09:02 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 23:09:02 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 23:09:02 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 23:09:02 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 23:09:03 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 23:09:03 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 23:09:03 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 23:09:03 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:09:03 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:09:03 I/stdout: 初始化成功...
+2024-02-17 23:09:03 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2024-02-17 23:09:03 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2024-02-17 23:09:04 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2024-02-17 23:09:04 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2024-02-17 23:09:05 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081825457628802893808053969.png
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17081825457628802893808053969.png.
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2024-02-17 23:09:05 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2024-02-17 23:09:15 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2024-02-17 23:09:15 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2024-02-17 23:09:20 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2024-02-17 23:09:20 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2024-02-17 23:09:20 I/Bot 2680785606: Login successful
+2024-02-17 23:09:20 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2024-02-17 23:09:20 I/Bot 2680785606: Login successful.
+2024-02-17 23:09:20 I/Net 2680785606: Server time updated, serverTime: 1708182560, diff: 0ms=0.0s
+2024-02-17 23:09:20 I/Net 2680785606: Syncing friend message history...
+2024-02-17 23:09:20 I/Net 2680785606: Start loading friend list...
+2024-02-17 23:09:20 I/Net 2680785606: Start loading stranger list...
+2024-02-17 23:09:20 I/Net 2680785606: Start loading friendGroup list...
+2024-02-17 23:09:20 I/Net 2680785606: Start loading group list...
+2024-02-17 23:09:20 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2024-02-17 23:09:20 I/Net 2680785606: Syncing friend message history: Success.
+2024-02-17 23:09:20 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2024-02-17 23:09:20 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2024-02-17 23:09:20 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2024-02-17 23:09:20 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2024-02-17 23:09:20 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2024-02-17 23:09:20 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2024-02-17 23:09:20 I/Bot 2680785606: Bot login successful.
+2024-02-17 23:09:20 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:09:20 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:09:20 I/stdout: 文件保存失败!!!
+2024-02-17 23:09:20 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 23:09:20 I/main: 3 plugin(s) enabled.
+2024-02-17 23:09:20 I/main: mirai-console started successfully.
+2024-02-17 23:09:25 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 23:09:34 E/Bot 2680785606: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandler.java:35)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandler.java:238)
+	at com.xyu.maomao.listener.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandler.java:47)
+	... 15 more
+
+2024-02-17 23:29:20 I/main: Starting mirai-console...
+2024-02-17 23:29:20 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-02-17 23:29:20 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-02-17 23:29:20 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-02-17 23:29:20 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-02-17 23:29:21 I/plugin: Successfully loaded plugin Cat v1.0.0
+2024-02-17 23:29:21 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2024-02-17 23:29:21 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-02-17 23:29:21 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:29:21 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:29:21 I/stdout: 初始化成功...
+2024-02-17 23:29:21 I/stdout: 0点定时任务被调用了..
+2024-02-17 23:29:21 I/stdout: 180分钟定时任务被调用...
+2024-02-17 23:29:21 I/stdout: 文件保存失败!!!
+2024-02-17 23:29:21 I/stdout: 配置初始化失败,请检查配置参数!!!
+2024-02-17 23:29:21 I/main: 3 plugin(s) enabled.
+2024-02-17 23:29:21 I/main: mirai-console started successfully.
+2024-02-17 23:29:30 W/console: Closing input service...

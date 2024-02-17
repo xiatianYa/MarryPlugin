@@ -1,0 +1,75 @@
+[0m2023-12-21 21:22:04 V/Net 2680785606: Validated caches.[0m
+[0m2023-12-21 21:22:04 V/Net 2680785606: No server list cached.[0m
+[92m2023-12-21 21:22:05 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.[0m
+[92m2023-12-21 21:22:05 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-12-21 21:22:05 I/Net 2680785606: Successfully fetched ecdh public key from server.[0m
+[0m2023-12-21 21:22:05 V/Net 2680785606: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-12-21 21:22:05 D/Net 2680785606: [AuthControl/acquire] Authorization responded: Password@764094869[0m
+[0m2023-12-21 21:22:05 V/Net 2680785606: Send: wtlogin.login(9:password-login)[0m
+[0m2023-12-21 21:22:05 V/Net 2680785606: Recv: wtlogin.login[0m
+[0m2023-12-21 21:22:44 V/Net 2680785606: Send: wtlogin.login(2:submit-slider)[0m
+[0m2023-12-21 21:22:44 V/Net 2680785606: Recv: wtlogin.login[0m
+[93m2023-12-21 21:22:44 W/Net 2680785606: Failed with auth method: Password@764094869
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2023-12-21 21:22:44 V/Net 2680785606: [AuthControl/resume] Fire auth failed with cause: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)[0m
+[93m2023-12-21 21:22:44 W/Net 2680785606: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+[0m
+[92m2023-12-21 21:22:44 I/Net 2680785606: ECDH key is valid.[0m
+[0m2023-12-21 21:22:44 V/Net 2680785606: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-12-21 21:22:44 D/Net 2680785606: [AuthControl/acquire] Authorization responded: Error[net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]@1969368756[0m
+[93m2023-12-21 21:22:44 W/Net 2680785606: Failed with auth method: Error[net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]@1969368756
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	... 5 more
+[0m
+[93m2023-12-21 21:22:44 W/Net 2680785606: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:249)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	... 6 more
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]
+[0m
+[93m2023-12-21 21:22:44 W/Net 2680785606: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.components.LoginFailedExceptionAsNetworkException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)[0m

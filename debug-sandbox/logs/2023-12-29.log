@@ -1,0 +1,1018 @@
+2023-12-29 13:44:27 I/main: Starting mirai-console...
+2023-12-29 13:44:27 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 13:44:27 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 13:44:27 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 13:44:27 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 13:44:28 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 13:44:28 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 13:44:28 I/stdout: 初始化成功...
+2023-12-29 13:44:28 I/stdout: 15分钟定时任务被调用...
+2023-12-29 13:44:28 I/stdout: 文件保存成功
+2023-12-29 13:44:28 I/stdout: 0点定时任务被调用了..
+2023-12-29 13:44:29 I/main: 2 plugin(s) enabled.
+2023-12-29 13:44:29 I/main: mirai-console started successfully.
+2023-12-29 13:44:56 I/Bot.2680785606: Calculating type 2 PoW, it can take some time....
+2023-12-29 13:44:56 I/Bot.2680785606: Got PoW result, cost: 92 ms
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] 或者输入 helper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] Or type helper to resolve slider captcha with TxCaptchaHelper.apk
+2023-12-29 13:44:56 W/Bot.2680785606: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-12-29 13:44:56 W/Bot.2680785606: [SliderCaptcha] The service of TxCaptchaHelper might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-12-29 13:44:56 W/Bot.2680785606: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-12-29 13:44:56 I/Bot.2680785606: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=2680785606&sid=5338818335462022362&cap_cd=66UbmL56VFODYRo5PzyS5bG0b9v03vMcZbUZE09T5N8RCZdLt-FAww**&clientype=1&apptype=2
+2023-12-29 13:45:30 I/Bot.2680785606: [SliderCaptcha] 正在提交中...
+2023-12-29 13:45:30 I/Bot.2680785606: [SliderCaptcha] Submitting...
+2023-12-29 13:45:30 I/Bot.2680785606: Bot cancelled: Bot closed
+2023-12-29 13:45:30 E/console: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=45, title=禁止登录, message=登录失败，请前往QQ官网im.qq.com下载最新版QQ后重试，或通过问题反馈与我们联系。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2680785606), code=45, title=禁止登录, message=登录失败，请前往QQ官网im.qq.com下载最新版QQ后重试，或通过问题反馈与我们联系。, errorInfo=)]
+
+2023-12-29 13:45:34 W/console: Closing input service...
+2023-12-29 13:46:41 I/main: Starting mirai-console...
+2023-12-29 13:46:41 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 13:46:41 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 13:46:41 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 13:46:41 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 13:46:42 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 13:46:42 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 13:46:42 I/stdout: 初始化成功...
+2023-12-29 13:46:42 I/stdout: 15分钟定时任务被调用...
+2023-12-29 13:46:42 I/stdout: 文件保存成功
+2023-12-29 13:46:42 I/stdout: 0点定时任务被调用了..
+2023-12-29 13:46:42 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 13:46:42 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 13:46:43 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 13:46:43 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 13:46:44 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17038288041499935700408426077.png
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17038288041499935700408426077.png.
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 13:46:44 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 13:47:00 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 13:47:00 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 13:47:05 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2023-12-29 13:47:05 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2023-12-29 13:47:05 I/Bot 2680785606: Login successful
+2023-12-29 13:47:05 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2023-12-29 13:47:05 I/Bot 2680785606: Login successful.
+2023-12-29 13:47:05 I/Net 2680785606: Server time updated, serverTime: 1703828827, diff: 2ms=0.002s
+2023-12-29 13:47:05 I/Net 2680785606: Syncing friend message history...
+2023-12-29 13:47:05 I/Net 2680785606: Start loading friend list...
+2023-12-29 13:47:05 I/Net 2680785606: Start loading stranger list...
+2023-12-29 13:47:05 I/Net 2680785606: Start loading friendGroup list...
+2023-12-29 13:47:05 I/Net 2680785606: Start loading group list...
+2023-12-29 13:47:05 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2023-12-29 13:47:05 I/Net 2680785606: Syncing friend message history: Success.
+2023-12-29 13:47:05 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2023-12-29 13:47:05 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2023-12-29 13:47:05 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2023-12-29 13:47:06 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2023-12-29 13:47:06 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 13:47:06 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 13:47:06 I/Bot 2680785606: Bot login successful.
+2023-12-29 13:47:06 I/main: 2 plugin(s) enabled.
+2023-12-29 13:47:06 I/main: mirai-console started successfully.
+2023-12-29 13:47:33 W/console: Closing input service...
+2023-12-29 13:47:44 I/main: Starting mirai-console...
+2023-12-29 13:47:45 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 13:47:45 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 13:47:45 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 13:47:45 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 13:47:45 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 13:47:46 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 13:47:46 I/stdout: 初始化成功...
+2023-12-29 13:47:46 I/stdout: 15分钟定时任务被调用...
+2023-12-29 13:47:46 I/stdout: 文件保存成功
+2023-12-29 13:47:46 I/stdout: 0点定时任务被调用了..
+2023-12-29 13:47:46 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 13:47:46 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 13:47:46 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 13:47:46 I/Net 2680785606: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 13:47:48 I/Net 2680785606: Successfully fetched ecdh public key from server.
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 2680785606 扫码
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 2680785606.
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17038288684986470162738055765.png
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-2680785606-17038288684986470162738055765.png.
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 13:47:48 I/Bot 2680785606: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 13:47:58 I/Bot 2680785606: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 13:47:58 I/Bot 2680785606: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 13:48:03 I/Bot 2680785606: [QRCodeLogin] 已确认登录
+2023-12-29 13:48:03 I/Bot 2680785606: [QRCodeLogin] Login confirmed.
+2023-12-29 13:48:03 I/Bot 2680785606: Login successful
+2023-12-29 13:48:03 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2023-12-29 13:48:04 I/Bot 2680785606: Login successful.
+2023-12-29 13:48:04 I/Net 2680785606: Server time updated, serverTime: 1703828886, diff: 2ms=0.002s
+2023-12-29 13:48:04 I/Net 2680785606: Syncing friend message history...
+2023-12-29 13:48:04 I/Net 2680785606: Start loading friend list...
+2023-12-29 13:48:04 I/Net 2680785606: Start loading stranger list...
+2023-12-29 13:48:04 I/Net 2680785606: Start loading friendGroup list...
+2023-12-29 13:48:04 I/Net 2680785606: Start loading group list...
+2023-12-29 13:48:04 I/Net 2680785606: Successfully loaded stranger list: 0 in total
+2023-12-29 13:48:04 I/Net 2680785606: Online OtherClients: PHP110(MOBILE)
+2023-12-29 13:48:04 I/Net 2680785606: Syncing friend message history: Success.
+2023-12-29 13:48:04 I/Net 2680785606: Successfully loaded friend list: 3 in total
+2023-12-29 13:48:04 I/Net 2680785606: Successfully loaded friendGroup list: 4 in total
+2023-12-29 13:48:04 I/Net 2680785606: Successfully loaded group list: 1 in total.
+2023-12-29 13:48:04 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 13:48:04 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 13:48:04 I/Bot 2680785606: Bot login successful.
+2023-12-29 13:48:04 I/main: 2 plugin(s) enabled.
+2023-12-29 13:48:04 I/main: mirai-console started successfully.
+2023-12-29 13:49:40 I/stdout: 无权限撤回
+2023-12-29 13:51:11 I/stdout: 无权限撤回
+2023-12-29 13:51:13 W/Bot 2680785606: Connection lost, reconnecting... (HeartbeatFailedException: 2680785606.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2680785606.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-12-29 13:51:13 W/Net 2680785606: Exception in resumeConnection.
+HeartbeatFailedException: 2680785606.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2680785606.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:415)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:352)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=2680785606.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.sendAndExpect(NetworkHandlerSupport.kt:126)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchJobsIn$9.invokeSuspend(HeartbeatScheduler.kt:86)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1$result$1.invokeSuspend(HeartbeatScheduler.kt:124)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull(Timeout.kt:100)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:124)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:30)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.async$default(Builders.common.kt:82)
+	at kotlinx.coroutines.BuildersKt.async$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl.launchHeartbeatJobAsync(HeartbeatScheduler.kt:104)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl.launchJobsIn(HeartbeatScheduler.kt:81)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK.<init>(CommonNetworkHandler.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateLoading$resumeConnection0$2$2.invoke(CommonNetworkHandler.kt:331)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateLoading$resumeConnection0$2$2.invoke(CommonNetworkHandler.kt:331)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateLoading.resumeConnection0(CommonNetworkHandler.kt:417)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateLoading$resumeConnection0$1.invokeSuspend(CommonNetworkHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)
+	at kotlinx.coroutines.debug.internal.DebugProbesImpl$CoroutineOwner.resumeWith(DebugProbesImpl.kt:545)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	... 1 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-12-29 13:51:13 I/Net 2680785606: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 13:51:13 I/Net 2680785606: ECDH key is valid.
+2023-12-29 13:51:13 I/Bot 2680785606: Saved account secrets to local cache for fast login.
+2023-12-29 13:51:14 I/Bot 2680785606: Login successful.
+2023-12-29 13:51:14 I/Net 2680785606: Server time updated, serverTime: 1703829076, diff: 2ms=0.002s
+2023-12-29 13:51:14 I/Net 2680785606: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 13:51:14 I/Net 2680785606: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 13:51:14 I/Bot 2680785606: Reconnected successfully in 0.379s.
+2023-12-29 14:01:22 I/main: Starting mirai-console...
+2023-12-29 14:01:22 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 14:01:22 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 14:01:22 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 14:01:22 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 14:01:23 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 14:01:23 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 14:01:27 I/stdout: 初始化成功...
+2023-12-29 14:01:27 I/stdout: 15分钟定时任务被调用...
+2023-12-29 14:01:27 I/stdout: 文件保存成功
+2023-12-29 14:01:27 I/stdout: 0点定时任务被调用了..
+2023-12-29 14:01:27 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 14:01:27 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 14:01:27 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 14:01:27 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 14:01:28 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038296886504551191115260261.png
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038296886504551191115260261.png.
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 14:01:28 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 14:01:33 I/Bot 3815829425: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 14:01:33 I/Bot 3815829425: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 14:01:43 I/Bot 3815829425: [QRCodeLogin] 已确认登录
+2023-12-29 14:01:43 I/Bot 3815829425: [QRCodeLogin] Login confirmed.
+2023-12-29 14:01:43 I/Bot 3815829425: Login successful
+2023-12-29 14:01:43 I/Bot 3815829425: Saved account secrets to local cache for fast login.
+2023-12-29 14:01:43 I/Bot 3815829425: Login successful.
+2023-12-29 14:01:43 I/Net 3815829425: Server time updated, serverTime: 1703829706, diff: 3ms=0.003s
+2023-12-29 14:01:43 I/Net 3815829425: Syncing friend message history...
+2023-12-29 14:01:43 I/Net 3815829425: Start loading friend list...
+2023-12-29 14:01:43 I/Net 3815829425: Start loading stranger list...
+2023-12-29 14:01:43 I/Net 3815829425: Start loading friendGroup list...
+2023-12-29 14:01:43 I/Net 3815829425: Successfully loaded stranger list: 0 in total
+2023-12-29 14:01:43 I/Net 3815829425: Start loading group list...
+2023-12-29 14:01:44 I/Net 3815829425: Online OtherClients: PHP110(MOBILE)
+2023-12-29 14:01:44 I/Net 3815829425: Successfully loaded friend list: 4 in total
+2023-12-29 14:01:44 I/Net 3815829425: Successfully loaded friendGroup list: 4 in total
+2023-12-29 14:01:44 I/Net 3815829425: Syncing friend message history: Success.
+2023-12-29 14:01:44 I/Net 3815829425: Successfully loaded group list: 4 in total.
+2023-12-29 14:01:44 I/Net 3815829425: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 14:01:44 I/Net 3815829425: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 14:01:44 I/Bot 3815829425: Bot login successful.
+2023-12-29 14:01:44 I/main: 2 plugin(s) enabled.
+2023-12-29 14:01:44 I/main: mirai-console started successfully.
+2023-12-29 14:02:30 I/stdout: false
+2023-12-29 14:02:30 I/stdout: 1
+2023-12-29 14:22:18 I/main: Starting mirai-console...
+2023-12-29 14:22:18 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 14:22:18 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 14:22:18 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 14:22:18 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 14:22:19 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 14:22:19 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 14:22:19 I/stdout: 初始化成功...
+2023-12-29 14:22:19 I/stdout: 15分钟定时任务被调用...
+2023-12-29 14:22:19 I/stdout: 文件保存成功
+2023-12-29 14:22:19 I/stdout: 0点定时任务被调用了..
+2023-12-29 14:22:19 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 14:22:19 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 14:22:20 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 14:22:20 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 14:22:20 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038309402174054226885218501.png
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038309402174054226885218501.png.
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 14:22:20 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 14:22:30 I/Bot 3815829425: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 14:22:30 I/Bot 3815829425: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 14:22:35 I/Bot 3815829425: [QRCodeLogin] 已确认登录
+2023-12-29 14:22:35 I/Bot 3815829425: [QRCodeLogin] Login confirmed.
+2023-12-29 14:22:35 I/Bot 3815829425: Login successful
+2023-12-29 14:22:35 I/Bot 3815829425: Saved account secrets to local cache for fast login.
+2023-12-29 14:22:36 I/Bot 3815829425: Login successful.
+2023-12-29 14:22:36 I/Net 3815829425: Server time updated, serverTime: 1703830958, diff: 2ms=0.002s
+2023-12-29 14:22:36 I/Net 3815829425: Syncing friend message history...
+2023-12-29 14:22:36 I/Net 3815829425: Start loading friend list...
+2023-12-29 14:22:36 I/Net 3815829425: Start loading stranger list...
+2023-12-29 14:22:36 I/Net 3815829425: Start loading friendGroup list...
+2023-12-29 14:22:36 I/Net 3815829425: Start loading group list...
+2023-12-29 14:22:36 I/Net 3815829425: Successfully loaded stranger list: 0 in total
+2023-12-29 14:22:36 I/Net 3815829425: Online OtherClients: PHP110(MOBILE)
+2023-12-29 14:22:36 I/Net 3815829425: Successfully loaded friend list: 4 in total
+2023-12-29 14:22:36 I/Net 3815829425: Successfully loaded friendGroup list: 4 in total
+2023-12-29 14:22:36 I/Net 3815829425: Syncing friend message history: Success.
+2023-12-29 14:22:37 I/Net 3815829425: Successfully loaded group list: 4 in total.
+2023-12-29 14:22:37 I/Net 3815829425: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 14:22:37 I/Net 3815829425: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 14:22:37 I/Bot 3815829425: Bot login successful.
+2023-12-29 14:22:37 I/main: 2 plugin(s) enabled.
+2023-12-29 14:22:37 I/main: mirai-console started successfully.
+2023-12-29 14:22:59 E/Bot 3815829425: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandlers.java:20)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.ClassCastException: net.mamoe.mirai.internal.message.source.OnlineMessageSourceFromGroupImpl cannot be cast to net.mamoe.mirai.message.data.MessageContent
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandlers.java:88)
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandlers.java:31)
+	... 15 more
+
+2023-12-29 14:23:25 E/Bot 3815829425: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:104)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:233)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.handleException(MiaoMiaoEventHandlers.java:20)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:155)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:26)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:162)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternal.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:148)
+	... 10 more
+Caused by: java.lang.ClassCastException: net.mamoe.mirai.internal.message.source.OnlineMessageSourceFromGroupImpl cannot be cast to net.mamoe.mirai.message.data.MessageContent
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.prohibit(MiaoMiaoEventHandlers.java:88)
+	at listener.com.xyu.maomao.MiaoMiaoEventHandler.onMessage(MiaoMiaoEventHandlers.java:31)
+	... 15 more
+
+2023-12-29 14:31:15 I/main: Starting mirai-console...
+2023-12-29 14:31:15 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 14:31:15 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 14:31:15 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 14:31:15 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 14:31:16 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 14:31:16 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 14:31:16 I/stdout: 初始化成功...
+2023-12-29 14:31:16 I/stdout: 15分钟定时任务被调用...
+2023-12-29 14:31:16 I/stdout: 文件保存成功
+2023-12-29 14:31:16 I/stdout: 0点定时任务被调用了..
+2023-12-29 14:31:17 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 14:31:17 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 14:31:17 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 14:31:17 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 14:31:18 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038314786643083109703113718.png
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038314786643083109703113718.png.
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 14:31:18 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 14:31:23 I/Bot 3815829425: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 14:31:23 I/Bot 3815829425: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 14:31:28 I/Bot 3815829425: [QRCodeLogin] 已确认登录
+2023-12-29 14:31:28 I/Bot 3815829425: [QRCodeLogin] Login confirmed.
+2023-12-29 14:31:28 I/Bot 3815829425: Login successful
+2023-12-29 14:31:28 I/Bot 3815829425: Saved account secrets to local cache for fast login.
+2023-12-29 14:31:28 I/Bot 3815829425: Login successful.
+2023-12-29 14:31:28 I/Net 3815829425: Server time updated, serverTime: 1703831490, diff: 2ms=0.002s
+2023-12-29 14:31:28 I/Net 3815829425: Syncing friend message history...
+2023-12-29 14:31:28 I/Net 3815829425: Start loading stranger list...
+2023-12-29 14:31:28 I/Net 3815829425: Start loading friend list...
+2023-12-29 14:31:28 I/Net 3815829425: Start loading friendGroup list...
+2023-12-29 14:31:28 I/Net 3815829425: Successfully loaded stranger list: 0 in total
+2023-12-29 14:31:28 I/Net 3815829425: Start loading group list...
+2023-12-29 14:31:28 I/Net 3815829425: Online OtherClients: PHP110(MOBILE)
+2023-12-29 14:31:28 I/Net 3815829425: Successfully loaded friend list: 4 in total
+2023-12-29 14:31:28 I/Net 3815829425: Successfully loaded friendGroup list: 4 in total
+2023-12-29 14:31:28 I/Net 3815829425: Syncing friend message history: Success.
+2023-12-29 14:31:29 I/Net 3815829425: Successfully loaded group list: 4 in total.
+2023-12-29 14:31:29 I/Net 3815829425: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 14:31:29 I/Net 3815829425: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 14:31:29 I/Bot 3815829425: Bot login successful.
+2023-12-29 14:31:29 I/main: 2 plugin(s) enabled.
+2023-12-29 14:31:29 I/main: mirai-console started successfully.
+2023-12-29 14:31:52 I/stdout: 
+2023-12-29 14:31:57 I/stdout: 是同步的这下寄寄子了
+2023-12-29 14:32:19 I/stdout: 
+2023-12-29 14:32:19 I/stdout: 不抱希望
+2023-12-29 14:32:19 I/stdout: 
+2023-12-29 14:32:19 I/stdout: 无所谓，反正我不玩
+2023-12-29 14:32:20 I/stdout: 
+2023-12-29 14:32:20 I/stdout: 
+2023-12-29 14:32:20 I/stdout: @172106635
+2023-12-29 14:32:20 I/stdout:  暴雪那个傻逼好像是
+2023-12-29 14:32:20 I/stdout: 
+2023-12-29 14:32:20 I/stdout: 话说我把1楼完全拆了2楼会浮空吗
+2023-12-29 14:32:20 I/stdout: 
+2023-12-29 14:32:20 I/stdout: 最后留存期是明年四月
+2023-12-29 14:32:21 I/stdout: 
+2023-12-29 14:32:21 I/stdout: 可能就商城不一样
+2023-12-29 14:32:21 I/stdout: 
+2023-12-29 14:32:21 I/stdout: 四月就滚蛋了
+2023-12-29 14:32:22 I/stdout: 
+2023-12-29 14:32:22 I/stdout: 
+2023-12-29 14:32:22 I/stdout: @3582287381
+2023-12-29 14:32:22 I/stdout:  不清楚唉
+2023-12-29 14:32:22 I/stdout: 
+2023-12-29 14:32:22 I/stdout: 2漏浮空
+2023-12-29 14:32:26 I/stdout: 
+2023-12-29 14:32:26 I/stdout: 但很傻
+2023-12-29 14:32:53 I/stdout: 
+2023-12-29 14:32:53 I/stdout: 
+2023-12-29 14:32:55 I/stdout: 好歹加几根承重柱做做样子
+2023-12-29 14:33:39 I/stdout: 
+2023-12-29 14:33:42 I/stdout: [不支持的消息#1759389889]
+2023-12-29 14:34:02 I/stdout: 
+2023-12-29 14:34:02 I/stdout: 僵毁又不是战地/斜眼笑
+2023-12-29 14:34:13 I/stdout: 
+2023-12-29 14:34:13 I/stdout: 根本没有房屋倒塌一说
+2023-12-29 15:12:45 I/main: Starting mirai-console...
+2023-12-29 15:12:45 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 15:12:45 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 15:12:45 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 15:12:45 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 15:12:46 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 15:12:46 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 15:13:36 I/main: Starting mirai-console...
+2023-12-29 15:13:36 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 15:13:36 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 15:13:36 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 15:13:36 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 15:13:37 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 15:13:37 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 15:14:23 I/main: Starting mirai-console...
+2023-12-29 15:14:23 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 15:14:23 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 15:14:23 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 15:14:23 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 15:14:24 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 15:14:24 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 15:14:29 I/stdout: 初始化成功...
+2023-12-29 15:14:29 I/stdout: 文件保存成功!!!
+2023-12-29 15:14:29 I/stdout: 文件保存成功!!!
+2023-12-29 15:14:29 I/stdout: 0点定时任务被调用了..
+2023-12-29 15:14:29 I/stdout: 15分钟定时任务被调用...
+2023-12-29 15:14:29 I/main: 2 plugin(s) enabled.
+2023-12-29 15:14:29 I/main: mirai-console started successfully.
+2023-12-29 15:14:41 I/main: Starting mirai-console...
+2023-12-29 15:14:41 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 15:14:41 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 15:14:41 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 15:14:41 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 15:14:42 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 15:14:42 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 17:24:37 I/main: Starting mirai-console...
+2023-12-29 17:24:37 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 17:24:37 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 17:24:37 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 17:24:37 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 17:24:38 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 17:24:39 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 17:25:25 I/main: Starting mirai-console...
+2023-12-29 17:25:25 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 17:25:25 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 17:25:25 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 17:25:25 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 17:25:26 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 17:25:26 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 17:25:26 I/stdout: 初始化成功...
+2023-12-29 17:25:26 I/stdout: 文件保存成功!!!
+2023-12-29 17:25:26 I/stdout: 文件保存成功!!!
+2023-12-29 17:25:26 I/stdout: 15分钟定时任务被调用...
+2023-12-29 17:25:26 I/stdout: 0点定时任务被调用了..
+2023-12-29 17:25:26 W/BotConfiguration: 未指定设备信息, 已使用随机设备信息. 请查看 BotConfiguration.deviceInfo 以获取更多信息.
+2023-12-29 17:25:26 W/BotConfiguration: Device info isn't specified. Please refer to BotConfiguration.deviceInfo for more information
+2023-12-29 17:25:26 I/Net 3815829425: EncryptService SPI is not provided, sso secure ecdh will not be initialized.
+2023-12-29 17:25:26 I/Net 3815829425: ECDH key is invalid, start to fetch ecdh public key from server.
+2023-12-29 17:25:27 I/Net 3815829425: Successfully fetched ecdh public key from server.
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] 已获取登录二维码，请在手机 QQ 使用账号 3815829425 扫码
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] Fetched login qrcode, please scan via qq android with account 3815829425.
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] 将会显示二维码图片，若看不清图片，请查看文件 file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038419272706459779982149296.png
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] Displaying qrcode image. If not clear, view file file:///C:/Users/ASUS/AppData/Local/Temp/mirai-qrcode-3815829425-17038419272706459779982149296.png.
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] 
+
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+                                                                                                                     
+
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] 等待扫描二维码中
+2023-12-29 17:25:27 I/Bot 3815829425: [QRCodeLogin] Waiting for scanning qrcode.
+2023-12-29 17:25:52 I/Bot 3815829425: [QRCodeLogin] 扫描完成，请在手机 QQ 确认登录
+2023-12-29 17:25:52 I/Bot 3815829425: [QRCodeLogin] Scan complete. Please confirm login.
+2023-12-29 17:26:03 I/Bot 3815829425: [QRCodeLogin] 已确认登录
+2023-12-29 17:26:03 I/Bot 3815829425: [QRCodeLogin] Login confirmed.
+2023-12-29 17:26:03 I/Bot 3815829425: Login successful
+2023-12-29 17:26:03 I/Bot 3815829425: Saved account secrets to local cache for fast login.
+2023-12-29 17:26:03 I/Bot 3815829425: Login successful.
+2023-12-29 17:26:03 I/Net 3815829425: Server time updated, serverTime: 1703841965, diff: 2ms=0.002s
+2023-12-29 17:26:03 I/Net 3815829425: Syncing friend message history...
+2023-12-29 17:26:03 I/Net 3815829425: Start loading friend list...
+2023-12-29 17:26:03 I/Net 3815829425: Start loading stranger list...
+2023-12-29 17:26:03 I/Net 3815829425: Start loading friendGroup list...
+2023-12-29 17:26:03 I/Net 3815829425: Start loading group list...
+2023-12-29 17:26:03 I/Net 3815829425: Successfully loaded stranger list: 0 in total
+2023-12-29 17:26:03 I/Net 3815829425: Online OtherClients: PHP110(MOBILE)
+2023-12-29 17:26:03 I/Net 3815829425: Successfully loaded friend list: 4 in total
+2023-12-29 17:26:03 I/Net 3815829425: Successfully loaded friendGroup list: 4 in total
+2023-12-29 17:26:03 I/Net 3815829425: Syncing friend message history: Success.
+2023-12-29 17:26:04 I/Net 3815829425: Successfully loaded group list: 4 in total.
+2023-12-29 17:26:04 I/Net 3815829425: Scheduled key refresh in 23h 55min 0.0s.
+2023-12-29 17:26:04 I/Net 3815829425: Scheduled refresh login session in 19d 23h 55min 0.0s.
+2023-12-29 17:26:04 I/Bot 3815829425: Bot login successful.
+2023-12-29 17:26:04 I/main: 2 plugin(s) enabled.
+2023-12-29 17:26:04 I/main: mirai-console started successfully.
+2023-12-29 17:26:29 I/stdout: 服务器信息获取失败:port out of range:-1
+2023-12-29 17:26:43 I/stdout: 服务器信息获取失败:Read timed out
+2023-12-29 19:15:11 I/main: Starting mirai-console...
+2023-12-29 19:15:11 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 19:15:11 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 19:15:11 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 19:15:11 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 19:15:12 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 19:15:12 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 19:39:01 I/main: Starting mirai-console...
+2023-12-29 19:39:01 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-12-29 19:39:01 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-12-29 19:39:01 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-12-29 19:39:01 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-12-29 19:39:02 I/plugin: Successfully loaded plugin miaomiao v1.0.0
+2023-12-29 19:39:03 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-12-29 19:39:13 I/stdout: 0点定时任务被调用了..
+2023-12-29 19:39:15 I/stdout: 5分钟定时任务被调用...
+2023-12-29 19:39:23 I/stdout: 读取到marry.properties文件,map数量为:1
+2023-12-29 19:40:21 I/stdout: 初始化成功...
+2023-12-29 19:40:23 I/main: 2 plugin(s) enabled.
+2023-12-29 19:40:23 I/main: mirai-console started successfully.
